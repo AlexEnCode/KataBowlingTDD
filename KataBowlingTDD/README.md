@@ -1,0 +1,1 @@
+﻿This is an exercice to improve our TDD competence, by doing the bowling's Kata
