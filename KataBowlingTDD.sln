@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataBowlingTDD", "KataBowlingTDD\KataBowlingTDD.csproj", "{413B8804-C5EF-4D91-A352-F1E41C090403}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestKataBowling", "TestKataBowling\TestKataBowling.csproj", "{4C31C688-29A1-478B-8B1B-CBDAB99684A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{413B8804-C5EF-4D91-A352-F1E41C090403}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{413B8804-C5EF-4D91-A352-F1E41C090403}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{413B8804-C5EF-4D91-A352-F1E41C090403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C31C688-29A1-478B-8B1B-CBDAB99684A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C31C688-29A1-478B-8B1B-CBDAB99684A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C31C688-29A1-478B-8B1B-CBDAB99684A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C31C688-29A1-478B-8B1B-CBDAB99684A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

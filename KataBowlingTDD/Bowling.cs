@@ -7,7 +7,7 @@ using System.Threading.Tasks.Dataflow;
 
 namespace KataBowlingTDD
 {
-    internal class Bowling
+    public class Bowling
     {
     
         public int Tour { get; set; }
