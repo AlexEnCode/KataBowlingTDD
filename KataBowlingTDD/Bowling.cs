@@ -11,15 +11,17 @@ namespace KataBowlingTDD
     {
     
         public int Tour { get; set; }
-        public int Lancer { get; set; }
+        public int Lancer { get; set; } 
         public int Score{ get; set; }
         public int Bonus { get; set; }
         public int Quille { get; set; }
 
-        public void Jouer()
+        public bool Jouer()
         {
-         throw new NotImplementedException();   
+            throw new NotImplementedException();
         }
+
+
 
         public void ScorePartie()
         { 

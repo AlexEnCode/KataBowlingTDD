@@ -5,15 +5,15 @@ namespace TestKataBowling
     public class UnitTest1
     {
         [TestMethod]
-        public void NombreDeTourEstDe10()
+        public void FinDeLaPartieAuTour10()
         {
             //arrange
             var partieBowling = new Bowling();
-            var a = 10;
             //act
-            var nombreTour = partieBowling.Tour;
+            var result = partieBowling.Jouer();
             //assert
-            Assert.IsTrue(nombreTour == a);
+            Assert.IsTrue(result);
+
         }
     }
 }
