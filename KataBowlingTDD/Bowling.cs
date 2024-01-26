@@ -11,14 +11,14 @@ namespace KataBowlingTDD
     public class Bowling
     {
 
-        public int round { get; set; };
+        public int Round { get; set; }
+
+        public int Score { get; set; }
 
 
-
-
-        public void Round()
+        public string Party()
         {
-
+            throw new NotImplementedException();
             
         }
 
