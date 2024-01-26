@@ -6,7 +6,7 @@ namespace TestKataBowling
     public class UnitTest1
     {
         [TestMethod]
-        public void FinDeLaPartie()
+        public void PartyEnd()
         {
             //arrange
             var partieBowling = new Bowling();
@@ -18,7 +18,7 @@ namespace TestKataBowling
             //assert
             Assert.AreEqual(result, str);
         }
-            }
+    }
 }
 
 

@@ -18,8 +18,8 @@ namespace KataBowlingTDD
 
         public string Party()
         {
-            throw new NotImplementedException();
-            
+        
+        return $"La partie est terminée vous avez {Score} point! Félicitations!";
         }
 
     }
