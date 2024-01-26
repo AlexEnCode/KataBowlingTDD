@@ -15,5 +15,20 @@ namespace TestKataBowling
             Assert.IsTrue(result);
 
         }
+        [TestMethod]
+        public void DeuxLancerParRound()
+        {
+            //arrange
+            var partieBowling = new Bowling();
+            //act
+            partieBowling.Round();
+            var Lancer = partieBowling.Round;
+            //assert
+            Assert.AreEqual(Lancer, 2);
+        }
     }
 }
+
+
+
+
